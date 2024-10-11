@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99B15A5C2CB8A7AE00F37543 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B15A5B2CB8A7AE00F37543 /* Test.swift */; };
 		99EEADEE2CB76C7300C5ADDC /* ChatiMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEADED2CB76C7300C5ADDC /* ChatiMacApp.swift */; };
 		99EEADF02CB76C7300C5ADDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEADEF2CB76C7300C5ADDC /* ContentView.swift */; };
 		99EEADF22CB76C7500C5ADDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EEADF12CB76C7500C5ADDC /* Assets.xcassets */; };
 		99EEADF52CB76C7500C5ADDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EEADF42CB76C7500C5ADDC /* Preview Assets.xcassets */; };
+		99EEADFE2CB76D8100C5ADDC /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEADFD2CB76D8100C5ADDC /* MessageBubbleView.swift */; };
+		99EEAE002CB76FB900C5ADDC /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEADFF2CB76FB900C5ADDC /* ChatMessage.swift */; };
+		99EEAE032CB76FF000C5ADDC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEAE022CB76FF000C5ADDC /* Utils.swift */; };
+		99EEAE052CB7716E00C5ADDC /* ListMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEAE042CB7716E00C5ADDC /* ListMessagesView.swift */; };
+		99EEAE082CB7873200C5ADDC /* ChatInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEAE072CB7873200C5ADDC /* ChatInputView.swift */; };
+		99EEAE0B2CB788FB00C5ADDC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEAE0A2CB788FB00C5ADDC /* HeaderView.swift */; };
+		99EEAE0D2CB789A100C5ADDC /* SidecarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EEAE0C2CB789A100C5ADDC /* SidecarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		99B15A5B2CB8A7AE00F37543 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		99EEADEA2CB76C7300C5ADDC /* ChatiMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatiMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99EEADED2CB76C7300C5ADDC /* ChatiMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatiMacApp.swift; sourceTree = "<group>"; };
 		99EEADEF2CB76C7300C5ADDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99EEADF12CB76C7500C5ADDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99EEADF42CB76C7500C5ADDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99EEADF62CB76C7500C5ADDC /* ChatiMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatiMac.entitlements; sourceTree = "<group>"; };
+		99EEADFD2CB76D8100C5ADDC /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		99EEADFF2CB76FB900C5ADDC /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		99EEAE022CB76FF000C5ADDC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		99EEAE042CB7716E00C5ADDC /* ListMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMessagesView.swift; sourceTree = "<group>"; };
+		99EEAE072CB7873200C5ADDC /* ChatInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInputView.swift; sourceTree = "<group>"; };
+		99EEAE0A2CB788FB00C5ADDC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		99EEAE0C2CB789A100C5ADDC /* SidecarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidecarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99B15A5D2CB8B27900F37543 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99B15A5E2CB8B28A00F37543 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99B15A5F2CB8B29800F37543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				99EEADEF2CB76C7300C5ADDC /* ContentView.swift */,
+				99EEAE062CB786FC00C5ADDC /* Chat */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		99EEADE12CB76C7200C5ADDC = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				99EEADED2CB76C7300C5ADDC /* ChatiMacApp.swift */,
-				99EEADEF2CB76C7300C5ADDC /* ContentView.swift */,
+				99B15A5F2CB8B29800F37543 /* Views */,
+				99B15A5E2CB8B28A00F37543 /* ViewModel */,
+				99B15A5D2CB8B27900F37543 /* Services */,
+				99EEAE092CB7882C00C5ADDC /* Models */,
+				99EEAE012CB76FE100C5ADDC /* Util */,
+				99B15A5B2CB8A7AE00F37543 /* Test.swift */,
 				99EEADF12CB76C7500C5ADDC /* Assets.xcassets */,
 				99EEADF62CB76C7500C5ADDC /* ChatiMac.entitlements */,
 				99EEADF32CB76C7500C5ADDC /* Preview Content */,
@@ -67,6 +111,42 @@
 				99EEADF42CB76C7500C5ADDC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99EEADFC2CB76D6700C5ADDC /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				99EEADFD2CB76D8100C5ADDC /* MessageBubbleView.swift */,
+				99EEAE042CB7716E00C5ADDC /* ListMessagesView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		99EEAE012CB76FE100C5ADDC /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				99EEAE022CB76FF000C5ADDC /* Utils.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		99EEAE062CB786FC00C5ADDC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				99EEADFC2CB76D6700C5ADDC /* Message */,
+				99EEAE072CB7873200C5ADDC /* ChatInputView.swift */,
+				99EEAE0C2CB789A100C5ADDC /* SidecarView.swift */,
+				99EEAE0A2CB788FB00C5ADDC /* HeaderView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		99EEAE092CB7882C00C5ADDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99EEADFF2CB76FB900C5ADDC /* ChatMessage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99EEAE032CB76FF000C5ADDC /* Utils.swift in Sources */,
 				99EEADF02CB76C7300C5ADDC /* ContentView.swift in Sources */,
+				99EEAE052CB7716E00C5ADDC /* ListMessagesView.swift in Sources */,
+				99EEAE002CB76FB900C5ADDC /* ChatMessage.swift in Sources */,
+				99EEADFE2CB76D8100C5ADDC /* MessageBubbleView.swift in Sources */,
+				99EEAE0D2CB789A100C5ADDC /* SidecarView.swift in Sources */,
 				99EEADEE2CB76C7300C5ADDC /* ChatiMacApp.swift in Sources */,
+				99B15A5C2CB8A7AE00F37543 /* Test.swift in Sources */,
+				99EEAE082CB7873200C5ADDC /* ChatInputView.swift in Sources */,
+				99EEAE0B2CB788FB00C5ADDC /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
